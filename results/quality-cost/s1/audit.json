@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "diagnostic_forwards": 12,
+  "models": [
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": null,
+      "J": 0.002548628021031618,
+      "err": 0.006905173882842064,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": 98.0,
+      "J": 0.002548628021031618,
+      "err": 0.006905173882842064,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep0.pt",
+      "sims": null,
+      "J": 4.5967899495735765e-05,
+      "err": 0.005033691413700581,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep0.pt",
+      "sims": 33.0,
+      "J": 0.002135514048859477,
+      "err": 0.006758274510502815,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": null,
+      "J": 0.0025482396595180035,
+      "err": 0.0069049689918756485,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": 98.0,
+      "J": 0.0025482396595180035,
+      "err": 0.0069049689918756485,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep1.pt",
+      "sims": null,
+      "J": 4.264369636075571e-05,
+      "err": 0.005019334610551596,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep1.pt",
+      "sims": 33.0,
+      "J": 0.0021363329142332077,
+      "err": 0.006758951582014561,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": null,
+      "J": 0.0025425790809094906,
+      "err": 0.006902222987264395,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": 98.0,
+      "J": 0.0025425790809094906,
+      "err": 0.006902222987264395,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep2.pt",
+      "sims": null,
+      "J": 4.751735832542181e-05,
+      "err": 0.005030256230384111,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep2.pt",
+      "sims": 33.0,
+      "J": 0.002136888448148966,
+      "err": 0.006758601870387793,
+      "J_difference": 0.0
+    }
+  ]
+}

@@ -303,6 +303,7 @@ class TRConfig:
     inner_iters: int = 300
     tt_cap: float = 1 / (4 * f0)
     verbose: bool = False
+    surrogate_factory: object = None  # callable(pairs, Vhat, it, x_hat, Delta, cfg, U, r, gc) -> objective
 
 
 def fit_linear(pairs, Vhat, it, x_hat, Delta, cfg):
@@ -407,7 +408,8 @@ def run_trust_region(cfg, label="TR"):
         born_now = False
         for attempt in range(2):
             U, stats = fit_linear(pairs, Vhat, it, x_hat, Delta, cfg)
-            Jt = make_Jtilde(U, r, gc)
+            Jt = (make_Jtilde(U, r, gc) if cfg.surrogate_factory is None else
+                  cfg.surrogate_factory(pairs, Vhat, it, x_hat, Delta, cfg, U, r, gc))
             c, pred = solve_subproblem(Jt, gc, Delta, cfg.inner_iters)
             unc = uncertainty(c, stats)
             if (cfg.born_mode == "adaptive" and attempt == 0 and unc > cfg.unc_tau

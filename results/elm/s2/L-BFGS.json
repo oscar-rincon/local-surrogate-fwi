@@ -1,0 +1,34 @@
+{
+  "label": "L-BFGS",
+  "J": 0.0019050858682021499,
+  "err": 0.003346339799463749,
+  "wall": 59.90686476199994,
+  "n_fwd": 51,
+  "n_adj": 49,
+  "n_born": 0,
+  "n_sims": 100.0,
+  "err0": 0.02337016351521015,
+  "J0": 10.601268768310547,
+  "iterations": 50,
+  "rejected": null,
+  "peak_memory_mb": 262.49267578125,
+  "metadata": {
+    "scenario": 2,
+    "acquisition": "wells",
+    "initialization": "smooth",
+    "noise": 0.0,
+    "budget": 100,
+    "torch": "2.8.0+cu128",
+    "python": "3.12.3",
+    "device": "cuda",
+    "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+    "source_sha256": {
+      "fwi_toy.py": "255bd9f3ae80ff795981ad7bea76182b0f5114d5ed8404d3954e20532b11a971",
+      "ml_ideas.py": "53804d869a58d460220baa2c94fd59fa34e01fc5b5ba4db87496658eb4bb3ee7",
+      "elm_surrogate.py": "ee3da33ed82b78e12280a1f9af8c7d3506e92a9ef609c87540517eafaa990b98",
+      "run_elm_experiments.py": "01a392edfe1233b79af3d6b938ed89b554a1d8fbee76837ec705d811ea5465e5"
+    },
+    "setup_forward_solves": 1,
+    "diagnostic_forward_solves": 0
+  }
+}

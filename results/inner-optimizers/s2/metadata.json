@@ -1,0 +1,41 @@
+{
+  "scenario": 2,
+  "acquisition": "wells",
+  "initialization": "smooth",
+  "noise": 0.0,
+  "budget": 100,
+  "repeats": 1,
+  "order": [
+    "L-BFGS",
+    "Adam-200",
+    "Adam-50",
+    "Inner-LBFGS-20"
+  ],
+  "torch": "2.8.0+cu128",
+  "python": "3.12.3",
+  "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+  "source_sha256": {
+    "fwi_toy.py": "255bd9f3ae80ff795981ad7bea76182b0f5114d5ed8404d3954e20532b11a971",
+    "ml_ideas.py": "98614773968a79dbaf22f87438eae78f10ad293c9b1e3706768fb79ba98d39ca",
+    "inner_lbfgs.py": "94af72244cbd041d88f38d9b5307a15e41d04a7cc1b8317bb5b1db2a110b75bc",
+    "run_inner_optimizers.py": "6cdb7db7c443ae58c43ab3b87a58bd6b811bed1f91dfce722ca4efa9a942557b",
+    "run_quality_cost.py": "7d380b81e84e46955fd6b7d8baeb602f0c8060fb9d6e2224a7eff4fb1ce747a8",
+    "run_direct_experiments.py": "79d15a0bf831bfae08eec70f6eca303773100cb6c2bb5709081266e4aeb7d392"
+  },
+  "illum_bound": 3.0,
+  "adam_lr": 0.03,
+  "inner_lbfgs": {
+    "lr": 1.0,
+    "max_iter": 20,
+    "max_eval": 40,
+    "history_size": 10,
+    "line_search": "strong_wolfe",
+    "tolerance_grad": 1e-07,
+    "tolerance_change": 1e-09,
+    "memory_reset_each_update": true,
+    "max_eval_note": "PyTorch stopping budget; a line search can exceed it"
+  },
+  "setup_forwards": 1,
+  "warmup_forwards": 1,
+  "timing": "Synchronized forward completion and component timings; includes preceding training"
+}

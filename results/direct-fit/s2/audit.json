@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "diagnostic_forwards": 21,
+  "models": [
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": null,
+      "J": 0.0018411946948617697,
+      "err": 0.003351211780682206,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": 100.0,
+      "J": 0.0018411946948617697,
+      "err": 0.003351211780682206,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep0.pt",
+      "sims": null,
+      "J": 0.00031460978789255023,
+      "err": 0.002917282050475478,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep0.pt",
+      "sims": 73.0,
+      "J": 0.0006670397706329823,
+      "err": 0.003335240064188838,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep0.pt",
+      "sims": 53.0,
+      "J": 0.0017000738298520446,
+      "err": 0.004338666331022978,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Direct-rep0.pt",
+      "sims": null,
+      "J": 0.003350737038999796,
+      "err": 0.003881675424054265,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Fixed-rep0.pt",
+      "sims": null,
+      "J": 0.004228491801768541,
+      "err": 0.004027928225696087,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": null,
+      "J": 0.0018411946948617697,
+      "err": 0.003351211780682206,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": 100.0,
+      "J": 0.0018411946948617697,
+      "err": 0.003351211780682206,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep1.pt",
+      "sims": null,
+      "J": 0.00031120568746700883,
+      "err": 0.002864514710381627,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep1.pt",
+      "sims": 51.0,
+      "J": 0.0018262919038534164,
+      "err": 0.004448096267879009,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep1.pt",
+      "sims": 71.0,
+      "J": 0.0006971413968130946,
+      "err": 0.003318331902846694,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Direct-rep1.pt",
+      "sims": null,
+      "J": 0.0033540937583893538,
+      "err": 0.003882241202518344,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Fixed-rep1.pt",
+      "sims": null,
+      "J": 0.004228491801768541,
+      "err": 0.004027928225696087,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": null,
+      "J": 0.00181074149440974,
+      "err": 0.0033304370008409023,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": 100.0,
+      "J": 0.00181074149440974,
+      "err": 0.0033304370008409023,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep2.pt",
+      "sims": null,
+      "J": 0.0002899733080994338,
+      "err": 0.0028737876564264297,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep2.pt",
+      "sims": 73.0,
+      "J": 0.0006366213783621788,
+      "err": 0.0033257470931857824,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep2.pt",
+      "sims": 53.0,
+      "J": 0.0016771347727626562,
+      "err": 0.004356033634394407,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Direct-rep2.pt",
+      "sims": null,
+      "J": 0.0033540937583893538,
+      "err": 0.003882241202518344,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Fixed-rep2.pt",
+      "sims": null,
+      "J": 0.004229528829455376,
+      "err": 0.004028091207146645,
+      "J_difference": 0.0
+    }
+  ]
+}

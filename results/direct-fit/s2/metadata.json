@@ -1,0 +1,32 @@
+{
+  "scenario": 2,
+  "acquisition": "wells",
+  "initialization": "smooth",
+  "noise": 0.0,
+  "budget": 100,
+  "repeats": 3,
+  "torch": "2.8.0+cu128",
+  "python": "3.12.3",
+  "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+  "source_sha256": {
+    "fwi_toy.py": "255bd9f3ae80ff795981ad7bea76182b0f5114d5ed8404d3954e20532b11a971",
+    "ml_ideas.py": "53804d869a58d460220baa2c94fd59fa34e01fc5b5ba4db87496658eb4bb3ee7",
+    "run_quality_cost.py": "7d380b81e84e46955fd6b7d8baeb602f0c8060fb9d6e2224a7eff4fb1ce747a8",
+    "direct_precond.py": "b8fe0348a40fb40d95f07a69b277ed8bcb1902c5008126bc03b7900491ce81ed",
+    "run_direct_experiments.py": "79d15a0bf831bfae08eec70f6eca303773100cb6c2bb5709081266e4aeb7d392"
+  },
+  "direct": {
+    "sigmas": [
+      1,
+      2,
+      4
+    ],
+    "eps": 0.1,
+    "ridge": 0.01,
+    "recent": 4.0
+  },
+  "fixed": "same filters; equal weights summing to 0.9; gamma updated from latest secant",
+  "setup_forwards": 1,
+  "warmup_forwards": 1,
+  "timing": "Synchronized forward completion; includes training and application; component timing synchronized"
+}

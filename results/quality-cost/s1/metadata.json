@@ -1,0 +1,22 @@
+{
+  "scenario": 1,
+  "acquisition": "wells",
+  "initialization": "smooth",
+  "noise": 0.0,
+  "budget": 100,
+  "repeats": 3,
+  "illum_bound": 3.0,
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "device": "cuda",
+  "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+  "source_sha256": {
+    "fwi_toy.py": "255bd9f3ae80ff795981ad7bea76182b0f5114d5ed8404d3954e20532b11a971",
+    "ml_ideas.py": "53804d869a58d460220baa2c94fd59fa34e01fc5b5ba4db87496658eb4bb3ee7",
+    "run_quality_cost.py": "7d380b81e84e46955fd6b7d8baeb602f0c8060fb9d6e2224a7eff4fb1ce747a8"
+  },
+  "setup_forwards": 1,
+  "warmup_forwards": 1,
+  "timing": "Synchronized forward completion; includes all preceding optimization/training",
+  "thresholds": "Each paired baseline's final J and masked relative RMS model error at 100 solves"
+}

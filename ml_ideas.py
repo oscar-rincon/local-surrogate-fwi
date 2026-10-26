@@ -71,15 +71,22 @@ class LearnedPrecond:
             w = torch.cat([w, torch.full((len(V),), w_hv * w.sum().item() / len(V), device=dev)])
         sn = Sb.norm(dim=1)
         params = [p for p, on in ((self.theta, self.learn_illum), (self.K, self.learn_kernel)) if on]
+        def objective():
+            loss = (w * ((self._P(Yb) - Sb).norm(dim=1) / sn) ** 2).sum() / w.sum()
+            return loss + self.reg * (((self.theta - self.theta0) ** 2).mean() + ((self.K - self.K0) ** 2).sum())
+        loss, diagnostics = self._fit(params, objective)
+        with torch.no_grad():
+            base = (w * ((self.gamma * Yb - Sb).norm(dim=1) / sn) ** 2).sum() / w.sum()
+        self.history.append(dict(n_pairs=n, loss=loss.item(), loss_gammaI=base.item(), **diagnostics))
+
+    def _fit(self, params, objective):
         opt = torch.optim.Adam(params, lr=self.lr)
         for _ in range(self.epochs):
             opt.zero_grad()
-            loss = (w * ((self._P(Yb) - Sb).norm(dim=1) / sn) ** 2).sum() / w.sum()
-            loss = loss + self.reg * (((self.theta - self.theta0) ** 2).mean() + ((self.K - self.K0) ** 2).sum())
+            loss = objective()
             loss.backward(); opt.step()
-        with torch.no_grad():
-            base = (w * ((self.gamma * Yb - Sb).norm(dim=1) / sn) ** 2).sum() / w.sum()
-        self.history.append(dict(n_pairs=n, loss=loss.item(), loss_gammaI=base.item()))
+        return loss, dict(optimizer="Adam", iterations=self.epochs,
+                          gradient_evaluations=self.epochs, loss_evaluations=self.epochs)
 
     @torch.no_grad()
     def apply(self, q):

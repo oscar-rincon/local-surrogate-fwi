@@ -1,0 +1,431 @@
+[
+  {
+    "repeat": 0,
+    "order": [
+      "L-BFGS",
+      "Bounded",
+      "Direct",
+      "Fixed"
+    ],
+    "criteria": {
+      "misfit": {
+        "target_J": 0.0025482396595180035,
+        "target_err": 0.0069049689918756485,
+        "methods": {
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.0025482396595180035,
+              "Jd": 0.0025482396595180035,
+              "alpha": 1.0,
+              "err": 0.0069049689918756485,
+              "seconds": 41.36040233499989
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          },
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.002158667892217636,
+              "Jd": 0.002158667892217636,
+              "alpha": 1.0,
+              "err": 0.006765220779925585,
+              "seconds": 20.340835822000372
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.508205078440748,
+            "speedup": 2.033367886007174
+          },
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          }
+        }
+      },
+      "model": {
+        "target_J": 0.0025482396595180035,
+        "target_err": 0.0069049689918756485,
+        "methods": {
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.0025482396595180035,
+              "Jd": 0.0025482396595180035,
+              "alpha": 1.0,
+              "err": 0.0069049689918756485,
+              "seconds": 41.36040233499989
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          },
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.002158667892217636,
+              "Jd": 0.002158667892217636,
+              "alpha": 1.0,
+              "err": 0.006765220779925585,
+              "seconds": 20.340835822000372
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.508205078440748,
+            "speedup": 2.033367886007174
+          },
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          }
+        }
+      },
+      "joint": {
+        "target_J": 0.0025482396595180035,
+        "target_err": 0.0069049689918756485,
+        "methods": {
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.0025482396595180035,
+              "Jd": 0.0025482396595180035,
+              "alpha": 1.0,
+              "err": 0.0069049689918756485,
+              "seconds": 41.36040233499989
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          },
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.002158667892217636,
+              "Jd": 0.002158667892217636,
+              "alpha": 1.0,
+              "err": 0.006765220779925585,
+              "seconds": 20.340835822000372
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.508205078440748,
+            "speedup": 2.033367886007174
+          },
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "repeat": 1,
+    "order": [
+      "Bounded",
+      "Direct",
+      "Fixed",
+      "L-BFGS"
+    ],
+    "criteria": {
+      "misfit": {
+        "target_J": 0.002548592397943139,
+        "target_err": 0.0069051701575517654,
+        "methods": {
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.0021595966536551714,
+              "Jd": 0.0021595966536551714,
+              "alpha": 1.0,
+              "err": 0.00676548108458519,
+              "seconds": 23.026651674999812
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.5579739533846206,
+            "speedup": 2.2623101232541876
+          },
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          },
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.002548592397943139,
+              "Jd": 0.002548592397943139,
+              "alpha": 1.0,
+              "err": 0.0069051701575517654,
+              "seconds": 52.09342718900007
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          }
+        }
+      },
+      "model": {
+        "target_J": 0.002548592397943139,
+        "target_err": 0.0069051701575517654,
+        "methods": {
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.0021595966536551714,
+              "Jd": 0.0021595966536551714,
+              "alpha": 1.0,
+              "err": 0.00676548108458519,
+              "seconds": 23.026651674999812
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.5579739533846206,
+            "speedup": 2.2623101232541876
+          },
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          },
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.002548592397943139,
+              "Jd": 0.002548592397943139,
+              "alpha": 1.0,
+              "err": 0.0069051701575517654,
+              "seconds": 52.09342718900007
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          }
+        }
+      },
+      "joint": {
+        "target_J": 0.002548592397943139,
+        "target_err": 0.0069051701575517654,
+        "methods": {
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.0021595966536551714,
+              "Jd": 0.0021595966536551714,
+              "alpha": 1.0,
+              "err": 0.00676548108458519,
+              "seconds": 23.026651674999812
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.5579739533846206,
+            "speedup": 2.2623101232541876
+          },
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          },
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.002548592397943139,
+              "Jd": 0.002548592397943139,
+              "alpha": 1.0,
+              "err": 0.0069051701575517654,
+              "seconds": 52.09342718900007
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          }
+        }
+      }
+    }
+  },
+  {
+    "repeat": 2,
+    "order": [
+      "Direct",
+      "Fixed",
+      "L-BFGS",
+      "Bounded"
+    ],
+    "criteria": {
+      "misfit": {
+        "target_J": 0.002548645483329892,
+        "target_err": 0.006905175279825926,
+        "methods": {
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          },
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.002548645483329892,
+              "Jd": 0.002548645483329892,
+              "alpha": 1.0,
+              "err": 0.006905175279825926,
+              "seconds": 54.713962798000466
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          },
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.0021389625035226345,
+              "Jd": 0.0021389625035226345,
+              "alpha": 1.0,
+              "err": 0.006758015137165785,
+              "seconds": 22.564000955000665
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.5876006817801676,
+            "speedup": 2.4248342706205515
+          }
+        }
+      },
+      "model": {
+        "target_J": 0.002548645483329892,
+        "target_err": 0.006905175279825926,
+        "methods": {
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          },
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.002548645483329892,
+              "Jd": 0.002548645483329892,
+              "alpha": 1.0,
+              "err": 0.006905175279825926,
+              "seconds": 54.713962798000466
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          },
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.0021389625035226345,
+              "Jd": 0.0021389625035226345,
+              "alpha": 1.0,
+              "err": 0.006758015137165785,
+              "seconds": 22.564000955000665
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.5876006817801676,
+            "speedup": 2.4248342706205515
+          }
+        }
+      },
+      "joint": {
+        "target_J": 0.002548645483329892,
+        "target_err": 0.006905175279825926,
+        "methods": {
+          "Direct": {
+            "reached": false,
+            "hit": null
+          },
+          "Fixed": {
+            "reached": false,
+            "hit": null
+          },
+          "L-BFGS": {
+            "reached": true,
+            "hit": {
+              "it": 48,
+              "sims": 98.0,
+              "J": 0.002548645483329892,
+              "Jd": 0.002548645483329892,
+              "alpha": 1.0,
+              "err": 0.006905175279825926,
+              "seconds": 54.713962798000466
+            },
+            "solves_saved": 0.0,
+            "seconds_saved": 0.0,
+            "speedup": 1.0
+          },
+          "Bounded": {
+            "reached": true,
+            "hit": {
+              "it": 16,
+              "sims": 33.0,
+              "J": 0.0021389625035226345,
+              "Jd": 0.0021389625035226345,
+              "alpha": 1.0,
+              "err": 0.006758015137165785,
+              "seconds": 22.564000955000665
+            },
+            "solves_saved": 0.6632653061224489,
+            "seconds_saved": 0.5876006817801676,
+            "speedup": 2.4248342706205515
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "diagnostic_forwards": 15,
+  "models": [
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": null,
+      "J": 0.001864023506641388,
+      "err": 0.0033575964625924826,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": 99.0,
+      "J": 0.001864023506641388,
+      "err": 0.0033575964625924826,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep0.pt",
+      "sims": null,
+      "J": 0.0002969879424199462,
+      "err": 0.0029087173752486706,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep0.pt",
+      "sims": 51.0,
+      "J": 0.0018073312239721417,
+      "err": 0.004477417096495628,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep0.pt",
+      "sims": 71.0,
+      "J": 0.0006635073805227876,
+      "err": 0.0033387187868356705,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": null,
+      "J": 0.0018411946948617697,
+      "err": 0.003351211780682206,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": 100.0,
+      "J": 0.0018411946948617697,
+      "err": 0.003351211780682206,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep1.pt",
+      "sims": null,
+      "J": 0.00028205045964568853,
+      "err": 0.0028668877203017473,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep1.pt",
+      "sims": 51.0,
+      "J": 0.0018049079226329923,
+      "err": 0.0044794525019824505,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep1.pt",
+      "sims": 71.0,
+      "J": 0.0006647316040471196,
+      "err": 0.0033508636988699436,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": null,
+      "J": 0.001864023506641388,
+      "err": 0.0033575964625924826,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": 99.0,
+      "J": 0.001864023506641388,
+      "err": 0.0033575964625924826,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep2.pt",
+      "sims": null,
+      "J": 0.0003064376360271126,
+      "err": 0.0028835840057581663,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep2.pt",
+      "sims": 73.0,
+      "J": 0.0006617525359615684,
+      "err": 0.0033104282338172197,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS+P-b3-rep2.pt",
+      "sims": 53.0,
+      "J": 0.0016712730284780264,
+      "err": 0.004304546397179365,
+      "J_difference": 0.0
+    }
+  ]
+}

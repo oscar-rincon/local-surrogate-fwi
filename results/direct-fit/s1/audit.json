@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "diagnostic_forwards": 18,
+  "models": [
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": null,
+      "J": 0.0025482396595180035,
+      "err": 0.0069049689918756485,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep0.pt",
+      "sims": 98.0,
+      "J": 0.0025482396595180035,
+      "err": 0.0069049689918756485,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep0.pt",
+      "sims": null,
+      "J": 4.620823165168986e-05,
+      "err": 0.0050261663272976875,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep0.pt",
+      "sims": 33.0,
+      "J": 0.002158667892217636,
+      "err": 0.006765220779925585,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Direct-rep0.pt",
+      "sims": null,
+      "J": 0.003397833788767457,
+      "err": 0.0071434881538152695,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Fixed-rep0.pt",
+      "sims": null,
+      "J": 0.0035422276705503464,
+      "err": 0.007229709066450596,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": null,
+      "J": 0.002548592397943139,
+      "err": 0.0069051701575517654,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep1.pt",
+      "sims": 98.0,
+      "J": 0.002548592397943139,
+      "err": 0.0069051701575517654,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep1.pt",
+      "sims": null,
+      "J": 4.7293302486650646e-05,
+      "err": 0.005031087435781956,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep1.pt",
+      "sims": 33.0,
+      "J": 0.0021595966536551714,
+      "err": 0.00676548108458519,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Direct-rep1.pt",
+      "sims": null,
+      "J": 0.00338645838201046,
+      "err": 0.0071434564888477325,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Fixed-rep1.pt",
+      "sims": null,
+      "J": 0.0035660513676702976,
+      "err": 0.007224180269986391,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": null,
+      "J": 0.002548645483329892,
+      "err": 0.006905175279825926,
+      "J_difference": 0.0
+    },
+    {
+      "file": "L-BFGS-rep2.pt",
+      "sims": 98.0,
+      "J": 0.002548645483329892,
+      "err": 0.006905175279825926,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep2.pt",
+      "sims": null,
+      "J": 4.306900154915638e-05,
+      "err": 0.00502012437209487,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Bounded-rep2.pt",
+      "sims": 33.0,
+      "J": 0.0021389625035226345,
+      "err": 0.006758015137165785,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Direct-rep2.pt",
+      "sims": null,
+      "J": 0.003397833788767457,
+      "err": 0.0071434881538152695,
+      "J_difference": 0.0
+    },
+    {
+      "file": "Fixed-rep2.pt",
+      "sims": null,
+      "J": 0.0035422276705503464,
+      "err": 0.007229709066450596,
+      "J_difference": 0.0
+    }
+  ]
+}
