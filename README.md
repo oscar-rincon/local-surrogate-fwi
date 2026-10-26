@@ -135,3 +135,24 @@ See [INNER_OPTIMIZER_REPORT.md](./INNER_OPTIMIZER_REPORT.md): in this single
 run, inner L-BFGS reached joint quality in 45.30 s, versus 51.02 s for
 Adam-200 and 46.96 s for conventional L-BFGS. The small 3.5% advantage over
 the conventional baseline is not a robust speedup claim without repetitions.
+
+## LODO optimizer / preconditioner
+
+`lodo.py` implements LODO (Liao et al., TMLR 2023, arXiv:2210.06171): an
+online-learned inverse Hessian `G(θ)`, built from random permutations and 4×4
+blocks, and trained with the one-step hypergradient. Two variants are tested:
+the paper's Algorithm 1 (`LODO`), and `G(θ)` as the initial inverse Hessian
+`H0` inside L-BFGS (`LODO-PC`).
+
+```bash
+OMP_NUM_THREADS=1 FWI_SCENARIO=1 FWI_ACQ=wells FWI_INIT=smooth FWI_NOISE=0 python run_lodo.py
+OMP_NUM_THREADS=1 FWI_SCENARIO=2 FWI_ACQ=wells FWI_INIT=smooth FWI_NOISE=0 python run_lodo.py
+python -m unittest -v test_lodo
+```
+
+Outputs are written to `results/lodo/s{1,2}/`, with one run per arm.
+
+See [LODO_REPORT.md](./LODO_REPORT.md): pure LODO ends with a 46–158× worse
+misfit than L-BFGS, and `LODO-PC` is neutral (95 vs 98 and 97 vs 100 solves to
+L-BFGS quality). Neither approaches the bounded learned preconditioner
+(33 and 69 solves).
