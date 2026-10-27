@@ -1,0 +1,154 @@
+{
+ "L-BFGS": {
+  "J": 0.0025482396595180035,
+  "err": 0.0069049689918756485,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.0,
+  "n_fwd": 51,
+  "n_adj": 49,
+  "coarse_cost": 0.0,
+  "wall": 80.73461556434631,
+  "best_J": 0.0025482396595180035,
+  "best_err": 0.0069049689918756485,
+  "n_coarse_acc": null,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": 98.0,
+   "err": 98.0,
+   "joint": 98.0
+  }
+ },
+ "C2F-10": {
+  "J": 0.1834128499031067,
+  "err": 0.015381738543510437,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.0,
+  "n_fwd": 46,
+  "n_adj": 44,
+  "coarse_cost": 10.0,
+  "wall": 108.10976958274841,
+  "best_J": 0.1834128499031067,
+  "best_err": 0.015381738543510437,
+  "n_coarse_acc": null,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ },
+ "C2F-25": {
+  "J": 1.1499192714691162,
+  "err": 0.04021855443716049,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.0,
+  "n_fwd": 39,
+  "n_adj": 36,
+  "coarse_cost": 25.0,
+  "wall": 145.0806179046631,
+  "best_J": 1.1499192714691162,
+  "best_err": 0.04021855443716049,
+  "n_coarse_acc": null,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ },
+ "MGOPT-4": {
+  "J": 0.011229134164750576,
+  "err": 0.00819431897252798,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.75,
+  "n_fwd": 50,
+  "n_adj": 15,
+  "coarse_cost": 35.75,
+  "wall": 154.41918540000916,
+  "best_J": 0.011229134164750576,
+  "best_err": 0.00819431897252798,
+  "n_coarse_acc": 14,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ },
+ "MGOPT-10": {
+  "J": 0.005528934765607119,
+  "err": 0.007331066764891148,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.75,
+  "n_fwd": 39,
+  "n_adj": 13,
+  "coarse_cost": 48.75,
+  "wall": 187.33941650390625,
+  "best_J": 0.005528934765607119,
+  "best_err": 0.007331066764891148,
+  "n_coarse_acc": 12,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ },
+ "MGOPT-10-sw": {
+  "J": 0.002761715790256858,
+  "err": 0.006991219241172075,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.5,
+  "n_fwd": 50,
+  "n_adj": 44,
+  "coarse_cost": 6.5,
+  "wall": 100.23692011833191,
+  "best_J": 0.002761715790256858,
+  "best_err": 0.006991219241172075,
+  "n_coarse_acc": 2,
+  "switched_at": 14.5,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ },
+ "MF-TR-10": {
+  "J": 0.007718073204159737,
+  "err": 0.007872509770095348,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.5,
+  "n_fwd": 26,
+  "n_adj": 14,
+  "coarse_cost": 60.5,
+  "wall": 215.70807123184204,
+  "best_J": 0.008565791882574558,
+  "best_err": 0.007973088882863522,
+  "n_coarse_acc": null,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ },
+ "MF-TR+corr-10": {
+  "J": 0.00878777913749218,
+  "err": 0.007988826371729374,
+  "err0": 0.0304688923060894,
+  "n_sims": 100.0,
+  "n_fwd": 27,
+  "n_adj": 18,
+  "coarse_cost": 55.0,
+  "wall": 198.7548222541809,
+  "best_J": 0.008857984095811844,
+  "best_err": 0.007994849234819412,
+  "n_coarse_acc": null,
+  "switched_at": null,
+  "passage_vs_lbfgs": {
+   "J": null,
+   "err": null,
+   "joint": null
+  }
+ }
+}

@@ -156,3 +156,24 @@ See [LODO_REPORT.md](./LODO_REPORT.md): pure LODO ends with a 46–158× worse
 misfit than L-BFGS, and `LODO-PC` is neutral (95 vs 98 and 97 vs 100 solves to
 L-BFGS quality). Neither approaches the bounded learned preconditioner
 (33 and 69 solves).
+
+## Multifidelity test (MG/OPT)
+
+`mgopt.py` implements classical MG/OPT (Nash 2000), with first-order gradient
+correction on the coarse `WaveGrid(2)` grid. It also provides a coarse-to-fine
+control and an MG/OPT → L-BFGS hybrid. The runner also includes the anchored
+data-space surrogate with and without the learned correction.
+
+```bash
+OMP_NUM_THREADS=1 FWI_SCENARIO=1 FWI_ACQ=wells FWI_INIT=smooth FWI_NOISE=0 python run_mgopt.py
+OMP_NUM_THREADS=1 FWI_SCENARIO=2 FWI_ACQ=wells FWI_INIT=smooth FWI_NOISE=0 python run_mgopt.py
+python -m unittest -v test_mgopt
+```
+
+Outputs are written to `results/mgopt/s{1,2}/`, with one run per arm.
+
+See [MGOPT_REPORT.md](./MGOPT_REPORT.md): no coarse-grid arm reaches the fine
+L-BFGS quality within 100 equivalents. The coarse grid has a 32% data error
+from dispersion. MG/OPT wins only during the first ~10 solves, and the hybrid
+ends level with L-BFGS. A learned coarse-to-fine correction is therefore not
+justified in this setting.
